@@ -18,6 +18,6 @@ app.use('/', usersRoutes);
 
 const PORT = process.env.PORT || 4000;
 
-app.listen(port, () => {
-    console.log(`Proyecto corriendoen el puerto: ${port}`);
+app.listen(PORT, () => {
+    console.log(`Proyecto corriendoen el puerto: ${PORT}`);
 })
