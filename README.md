@@ -28,19 +28,19 @@
 
 5. **Crear archivo .env:**
 
-Variables de la base de datos:
+Variables de la base de datos:  
 DB_HOST= # host de la bd   
 DB_USER= # usuario de la bd   
 DB_PASSWORD= # password de la bd   
 DB_DATABASE= # nombre de la base de datos   
 
-Configuración de Mailtrap:
+Configuración de Mailtrap:  
 EMAIL_USER= # user de mailtrap   
 EMAIL_PASS= # password de mailtrap   
 EMAIL_HOST= # host de mailtrap   
 EMAIL_PORT= # puerto de mailtrap   
 
-URL del frontend:
+URL del frontend:  
 FRONTEND_URL= # ruta de tu frontend
 
 6. **Ejecutar el servidor en modo desarrollo:**
