@@ -43,7 +43,7 @@ Welcome to the SoundHarbor backend repository! Here you'll find the necessary st
       Frontend URL:  
             FRONTEND_URL= # frontend url
 
-6. **Import the database:**
+6. **Import the database:**   
       You must import the database
 
 7. **Run the server in development mode:**
