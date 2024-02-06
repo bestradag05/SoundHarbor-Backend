@@ -64,6 +64,8 @@ const listarUsuarios =  async (req, res) => {
 
         /* Una vez registrado llamamos a nuestro helper
         Para enviar el email */
+
+        
         emailRegistro(usuario);
 
         res.json({usuario});
