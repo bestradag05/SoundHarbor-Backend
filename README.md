@@ -1,51 +1,51 @@
 # SoundHarbor-Backend
 
-¡Bienvenido al repositorio del backend de SoundHarbor! Aquí encontrarás los pasos necesarios para instalar y ejecutar el proyecto en tu entorno local.
+Welcome to the SoundHarbor backend repository! Here you'll find the necessary steps to install and run the project in your local environment.
 
-## Pasos de instalación
+## Installation Steps
 
-1. **Clonar el proyecto:**
+1. **Clone the project:**
 
    ```bash
    git clone https://github.com/bestradag05/SoundHarbor-Backend
 
-2. **Ingresar a la carpeta del proyecto:**
+2. **Enter the project folder:**
 
    ```bash
    cd SoundHarbor-Backend
 
-3. **Instalar dependencias:**
+3. **Install dependencies:**
 
    ```bash
    npm install
 
-4. **Opcional: Instalar nodemon para facilitar la ejecución del servidor:**
+4. **Optional: Install nodemon to make it easier to run the server:**
 
    ```bash
    npm install -g nodemon
    ```
-   puedes ejecutar utilizando nodemos o utilizando node.
+   you can run using nodemos or using node.
 
-5. **Crear archivo .env:**
+5. **Create .env file:**
 
-      Variables de la base de datos:  
-            DB_HOST= # host de la bd   
-            DB_USER= # usuario de la bd   
-            DB_PASSWORD= # password de la bd   
-            DB_DATABASE= # nombre de la base de datos   
+     Database variables:  
+            DB_HOST= # db host   
+            DB_USER= # db user   
+            DB_PASSWORD= # db password   
+            DB_DATABASE= # database name   
 
-      Configuración de Mailtrap:  
-            EMAIL_USER= # user de mailtrap   
-            EMAIL_PASS= # password de mailtrap   
-            EMAIL_HOST= # host de mailtrap   
-            EMAIL_PORT= # puerto de mailtrap   
+      Mailtrap Settings:  
+            EMAIL_USER= # mailtrap user  
+            EMAIL_PASS= # mailtrap password   
+            EMAIL_HOST= # mailtrap host   
+            EMAIL_PORT= # mailtrap port   
 
-      URL del frontend:  
-            FRONTEND_URL= # ruta de tu frontend
+      Frontend URL:  
+            FRONTEND_URL= # frontend url
 
-6. **Ejecutar el servidor en modo desarrollo:**
+6. **Run the server in development mode:**
 
 ```bash
 npm run dev
 ```
-¡Listo! Ahora tu servidor de SoundHarbor está en funcionamiento en tu entorno local. Si tienes alguna pregunta o problema, no dudes en abrir un problema en el repositorio. ¡Disfruta desarrollando con SoundHarbor!
+Ready! Now your SoundHarbor server is up and running in your local environment. If you have any questions or problems, feel free to open an issue in the repository. Enjoy developing with SoundHarbor!
